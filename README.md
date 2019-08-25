@@ -1,12 +1,5 @@
 # FSND-Server-Project
 
-## Table of Contents
-
-- [Intro](#intro)
-- [Server Definitions and Configurations](#Server Definitions and Configurations)
-- [App Configuration](#App Configuration)
-- [Supporting Materials](#supporting-materials)
-
 ## Intro
 
 Guidelines to configure a linux server in Amazon Lightsail and load a python app to run on this server.
@@ -261,16 +254,14 @@ Now open the Browser and open the pray, I mean, open the page http://54.160.14.1
 
 ## Supporting Materials
 
-debug Apache2 server with the following command: `sudo tail -100 /var/log/apache2/error.log`
+debug Apache2 server with the following command: `sudo tail -100 /var/log/apache2/error.log`  
 
-Flask WSGI on Apache Tutorial:
+Flask WSGI on Apache Tutorial:  
 https://blog.ekbana.com/deploying-flask-application-using-mod-wsgi-bdf59174a389
 
 Udacity
 
-Some Github repositories that helped me to develop this project:
+Some Github repositories that helped me to develop this project:  
 [/rccmodena](https://github.com/rccmodena/FSND_linux_server_configuration)  
 [/lucianobarauna](https://github.com/lucianobarauna/udacityproj_linuxserver)  
 [/andrevst](https://github.com/andrevst/fsnd-p6-linux-server-configuration)
-
-[(Back to TOC)](#table-of-contents)
